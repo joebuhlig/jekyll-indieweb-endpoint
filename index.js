@@ -16,7 +16,8 @@ const jekyll = new JekyllPreset();
 const github = new GithubStore({
   user: 'joebuhlig',
   repo: 'joebuhlig.com',
-  branch: 'master'
+  branch: 'master',
+  token: process.env.GITHUB_TOKEN
 });
 
 // Configure Internet Archive syndicator
