@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/joebuhli/jekyll-indieweb-endpoint.git"
   },
-  "homepage": "https://indiekit.joebuhlig.com",
+  "homepage": "https://joebuhlig-indiekit.herokuapp.com/",
   "engines": {
     "node": "16.x"
   },
