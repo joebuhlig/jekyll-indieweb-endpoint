@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "joebuhlig-indieweb-endpoint",
+  "version": "1.0.0",
+  "description": "Indiekit server for my personal website",
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": {
+    "name": "Joe Buhlig",
+    "url": "https://joebuhlig.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebuhli/jekyll-indieweb-endpoint.git"
+  },
+  "homepage": "https://indiekit.joebuhlig.com",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "DEBUG=* node index.js"
+  },
+  "dependencies": {
+    "@indiekit/indiekit": "^0.3.0",
+    "@indiekit/store-github": "^0.3.0",
+    "@indiekit/syndicator-internet-archive": "^0.3.0",
+    "@indiekit/syndicator-mastodon": "^0.3.0",
+    "@indiekit/syndicator-twitter": "^0.3.0",
+    "lodash": "^4.3.1"
+  }
+}
