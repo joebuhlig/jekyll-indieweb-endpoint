@@ -45,7 +45,7 @@ const postTypes = [{
   name: 'Note',
   post: {
     path: '_notes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'note/{t}/'
+    url: 'note/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
     path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
@@ -56,7 +56,7 @@ const postTypes = [{
   name: 'Photo',
   post: {
     path: '_photos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'photo/{t}/'
+    url: 'photo/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
     path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
@@ -67,7 +67,7 @@ const postTypes = [{
   name: 'Video',
   post: {
     path: '_videos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'video/{t}/'
+    url: 'video/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
     path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
@@ -78,14 +78,14 @@ const postTypes = [{
   name: 'Bookmark',
   post: {
     path: '_bookmarks/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'bookmark/{t}/'
+    url: 'bookmark/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'reply',
   name: 'Reply',
   post: {
     path: '_replies/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'reply/{t}/'
+    url: 'reply/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
     path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
@@ -96,21 +96,21 @@ const postTypes = [{
   name: 'Like',
   post: {
     path: '_likes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'like/{t}/'
+    url: 'like/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'repost',
   name: 'Repost',
   post: {
     path: '_reposts/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'repost/{t}/'
+    url: 'repost/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'event',
   name: 'Event',
   post: {
     path: '_events/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
-    url: 'event/{t}/'
+    url: 'event/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
     path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
