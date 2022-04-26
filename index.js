@@ -130,7 +130,7 @@ const storeMessageTemplate = metaData => {
   return `🤖 ${result} a ${postType} ${fileType}`;
 };
 
-indiekit.set('publication.locale', 'en');
+indiekit.set('publication.locale', 'en-US');
 indiekit.set('publication.me', 'https://joebuhlig.com');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.postTypes', postTypes);
