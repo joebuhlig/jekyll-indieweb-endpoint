@@ -37,90 +37,90 @@ const postTypes = [{
     url: '{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'note',
   name: 'Note',
   post: {
-    path: '_notes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_notes/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'note/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'photo',
   name: 'Photo',
   post: {
-    path: '_photos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_photos/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'photo/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'video',
   name: 'Video',
   post: {
-    path: '_videos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_videos/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'video/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'bookmark',
   name: 'Bookmark',
   post: {
-    path: '_bookmarks/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_bookmarks/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'bookmark/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'reply',
   name: 'Reply',
   post: {
-    path: '_replies/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_replies/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'reply/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'like',
   name: 'Like',
   post: {
-    path: '_likes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_likes/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'like/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'repost',
   name: 'Repost',
   post: {
-    path: '_reposts/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_reposts/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'repost/{yyyy}/{MM}/{dd}/{slug}/'
   }
 },{
   type: 'event',
   name: 'Event',
   post: {
-    path: '_events/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_events/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'event/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{slug}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{slug}.{ext}'
   }
 },{
   type: 'Steps',
   name: 'Steps',
   post: {
-    path: '_steps/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
+    path: '_steps/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'steps/{yyyy}-{MM}-{dd}/'
   }
 }];
