@@ -35,6 +35,10 @@ const postTypes = [{
   post: {
     path: '_posts/{yyyy}-{MM}-{dd}-{slug}.md',
     url: '{slug}/'
+  },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
   }
 },{
   type: 'note',
@@ -42,6 +46,10 @@ const postTypes = [{
   post: {
     path: '_notes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'note/{t}/'
+  },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
   }
 },{
   type: 'photo',
@@ -50,6 +58,10 @@ const postTypes = [{
     path: '_photos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'photo/{t}/'
   },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+  }
 },{
   type: 'video',
   name: 'Video',
@@ -57,6 +69,10 @@ const postTypes = [{
     path: '_videos/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'video/{t}/'
   },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+  }
 },{
   type: 'bookmark',
   name: 'Bookmark',
@@ -71,20 +87,24 @@ const postTypes = [{
     path: '_replies/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'reply/{t}/'
   },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+  }
 },{
   type: 'like',
   name: 'Like',
   post: {
     path: '_likes/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'like/{t}/'
-  },
+  }
 },{
   type: 'repost',
   name: 'Repost',
   post: {
     path: '_reposts/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'repost/{t}/'
-  },
+  }
 },{
   type: 'event',
   name: 'Event',
@@ -92,19 +112,18 @@ const postTypes = [{
     path: '_events/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'event/{t}/'
   },
+  media: {
+    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
+    url: 'media/{yyyy}/{MM}/{dd}/{t}.{ext}'
+  }
 },{
   type: 'Steps',
   name: 'Steps',
   post: {
     path: '_steps/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.md',
     url: 'steps/{yyyy}-{MM}-{dd}/'
-  },
-},
-  media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}-{t}.{ext}',
-    url: 'media/{t}.{ext}'
   }
-];
+}];
 
 const storeMessageTemplate = metaData => {
   const {result, postType, fileType} = metaData;
