@@ -3,8 +3,6 @@ import {Indiekit} from '@indiekit/indiekit';
 import {JekyllPreset} from '@indiekit/preset-jekyll';
 import {GithubStore} from '@indiekit/store-github';
 import {InternetArchiveSyndicator} from '@indiekit/syndicator-internet-archive';
-import {MastodonSyndicator} from '@indiekit/syndicator-mastodon';
-import {TwitterSyndicator} from '@indiekit/syndicator-twitter';
 
 const indiekit = new Indiekit();
 const jekyll = new JekyllPreset();
@@ -14,19 +12,6 @@ const github = new GithubStore({
   repo: 'joebuhlig.com',
   branch: 'master',
   token: process.env.GITHUB_TOKEN
-});
-
-const mastodon = new MastodonSyndicator({
-  checked: true,
-  forced: true,
-  url: 'https://mastodon.social',
-  user: 'joebuhlig'
-});
-
-const twitter = new TwitterSyndicator({
-  checked: true,
-  forced: true,
-  user: 'joebuhlig'
 });
 
 const postTypes = [{
@@ -136,10 +121,14 @@ indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.postTypes', postTypes);
 indiekit.set('publication.store', github);
 indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
-indiekit.set('publication.syndicationTargets', [
-  mastodon,
-  twitter
-]);
+indiekit.set('publication.syndicationTargets', [{
+  uid: 'https://twitter.com/joebuhlig/',
+  name: '@joebuhlig@twitter.com'
+}, {
+  uid: 'https://mastodon.social/@joebuhlig',
+  name: '@joebuhlig@mastodon.social'
+}]);
+
 indiekit.set('publication.timeZone', 'America/Chicago');
 
 const server = indiekit.server();
