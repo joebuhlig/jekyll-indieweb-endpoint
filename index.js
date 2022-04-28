@@ -123,10 +123,25 @@ indiekit.set('publication.store', github);
 indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
 indiekit.set('publication.syndicationTargets', [{
   uid: 'https://twitter.com/joebuhlig/',
-  info: {name: '@joebuhlig@twitter.com'}
+  info: {name: 'joebuhlig@twitter.com'}
 }, {
   uid: 'https://mastodon.social/@joebuhlig',
   info: {name: '@joebuhlig@mastodon.social'}
+}, {
+  uid: 'https://flickr.com/joebuhlig',
+  info: {name: 'joebuhlig@flickr.com'}
+}, {
+  uid: 'https://instagram.com/joebuhlig',
+  info: {name: 'joebuhlig@instagram.com'}
+}, {
+  uid: 'https://reddit.com/r/joebuhlig',
+  info: {name: '/r/joebuhlig@reddit.com'}
+}, {
+  uid: 'https://medium.com/joebuhlig-com'
+  info: {name: 'joebuhlig-com@medium.com'}
+}, {
+  uid: 'https://tumblr.com/blog/joebuhlig',
+  info: {name: 'joebuhlig@tumblr.com'}  
 }]);
 
 indiekit.set('publication.timeZone', 'America/Chicago');
