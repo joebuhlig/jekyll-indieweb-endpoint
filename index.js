@@ -123,10 +123,10 @@ indiekit.set('publication.store', github);
 indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
 indiekit.set('publication.syndicationTargets', [{
   uid: 'https://twitter.com/joebuhlig/',
-  name: '@joebuhlig@twitter.com'
+  info: {name: '@joebuhlig@twitter.com'}
 }, {
   uid: 'https://mastodon.social/@joebuhlig',
-  name: '@joebuhlig@mastodon.social'
+  info: {name: '@joebuhlig@mastodon.social'}
 }]);
 
 indiekit.set('publication.timeZone', 'America/Chicago');
