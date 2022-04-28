@@ -122,26 +122,33 @@ indiekit.set('publication.postTypes', postTypes);
 indiekit.set('publication.store', github);
 indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
 indiekit.set('publication.syndicationTargets', [{
-  uid: 'https://twitter.com/joebuhlig/',
-  info: {name: 'joebuhlig@twitter.com'}
+  info: {
+    uid: 'https://twitter.com/joebuhlig/',
+    name: 'joebuhlig@twitter.com'}
 }, {
-  uid: 'https://mastodon.social/@joebuhlig',
-  info: {name: '@joebuhlig@mastodon.social'}
+  info: {
+    uid: 'https://mastodon.social/@joebuhlig',
+    name: '@joebuhlig@mastodon.social'}
 }, {
-  uid: 'https://flickr.com/joebuhlig',
-  info: {name: 'joebuhlig@flickr.com'}
+  info: {
+    uid: 'https://flickr.com/joebuhlig',
+    name: 'joebuhlig@flickr.com'}
 }, {
-  uid: 'https://instagram.com/joebuhlig',
-  info: {name: 'joebuhlig@instagram.com'}
+  info: {
+    uid: 'https://instagram.com/joebuhlig',
+    name: 'joebuhlig@instagram.com'}
 }, {
-  uid: 'https://reddit.com/r/joebuhlig',
-  info: {name: '/r/joebuhlig@reddit.com'}
+  info: {
+    uid: 'https://reddit.com/r/joebuhlig',
+    name: '/r/joebuhlig@reddit.com'}
 }, {
-  uid: 'https://medium.com/joebuhlig-com',
-  info: {name: 'joebuhlig-com@medium.com'}
+  info: {
+    uid: 'https://medium.com/joebuhlig-com',
+    name: 'joebuhlig-com@medium.com'}
 }, {
-  uid: 'https://tumblr.com/blog/joebuhlig',
-  info: {name: 'joebuhlig@tumblr.com'}  
+  info: {
+    uid: 'https://tumblr.com/blog/joebuhlig',
+    name: 'joebuhlig@tumblr.com'}
 }]);
 
 indiekit.set('publication.timeZone', 'America/Chicago');
