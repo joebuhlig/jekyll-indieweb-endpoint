@@ -124,13 +124,11 @@ indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
 indiekit.set('publication.syndicationTargets', [{
   info: {
     uid: 'https://twitter.com/joebuhlig/',
-    name: 'joebuhlig@twitter.com',
-    checked: true}
+    name: 'joebuhlig@twitter.com'}
 }, {
   info: {
     uid: 'https://mastodon.social/@joebuhlig',
-    name: '@joebuhlig@mastodon.social',
-    checked: true}
+    name: '@joebuhlig@mastodon.social'}
 }, {
   info: {
     uid: 'https://flickr.com/joebuhlig',
