@@ -123,7 +123,7 @@ indiekit.set('publication.store', github);
 indiekit.set('publication.storeMessageTemplate', storeMessageTemplate);
 indiekit.set('publication.syndicationTargets', [{
   info: {
-    uid: 'https://twitter.com/joebuhlig/',
+    uid: 'https://twitter.com/joebuhlig',
     name: 'joebuhlig@twitter.com'}
 }, {
   info: {
