@@ -22,7 +22,7 @@ const postTypes = [{
     url: '{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
     url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
   }
 },{
@@ -33,8 +33,8 @@ const postTypes = [{
     url: 'note/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'photo',
@@ -44,8 +44,8 @@ const postTypes = [{
     url: 'photo/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'video',
@@ -55,8 +55,8 @@ const postTypes = [{
     url: 'video/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'bookmark',
@@ -73,8 +73,8 @@ const postTypes = [{
     url: 'reply/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'like',
@@ -98,8 +98,8 @@ const postTypes = [{
     url: 'event/{yyyy}/{MM}/{dd}/{slug}/'
   },
   media: {
-    path: '_assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'Steps',
