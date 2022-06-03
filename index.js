@@ -139,6 +139,10 @@ indiekit.set('publication.syndicationTargets', [{
     name: 'joebuhlig@instagram.com'}
 }, {
   info: {
+    uid: 'https://reddit.com/u/joebuhlig',
+    name: '/u/joebuhlig@reddit.com'}
+}, {
+  info: {
     uid: 'https://reddit.com/r/joebuhlig',
     name: '/r/joebuhlig@reddit.com'}
 }, {
