@@ -153,6 +153,10 @@ indiekit.set('publication.syndicationTargets', [{
   info: {
     uid: 'https://tumblr.com/blog/joebuhlig',
     name: 'joebuhlig@tumblr.com'}
+}, {
+  info: {
+    uid: 'https://truthsocial.com/@joebuhlig',
+    name: '@joebuhlig@truthsocial.com'}
 }]);
 
 indiekit.set('publication.timeZone', 'America/Chicago');
