@@ -147,8 +147,8 @@ indiekit.set('publication.syndicationTargets', [{
     name: '/r/joebuhlig@reddit.com'}
 }, {
   info: {
-    uid: 'https://medium.com/joebuhlig-com',
-    name: 'joebuhlig-com@medium.com'}
+    uid: 'https://medium.com/@joebuhlig',
+    name: 'joebuhlig@medium.com'}
 }, {
   info: {
     uid: 'https://tumblr.com/blog/joebuhlig',
