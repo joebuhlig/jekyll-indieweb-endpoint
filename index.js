@@ -117,6 +117,7 @@ const storeMessageTemplate = metaData => {
 
 indiekit.set('publication.locale', 'en-US');
 indiekit.set('publication.me', 'https://joebuhlig.com');
+indiekit.set('publication.categories', 'https://joebuhlig.com/categories.json');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.postTypes', postTypes);
 indiekit.set('publication.store', github);
