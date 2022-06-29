@@ -22,8 +22,8 @@ const postTypes = [{
     url: '{slug}/'
   },
   media: {
-    path: 'assets/media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
-    url: 'media/{yyyy}/{MM}/{dd}/{HH}-{mm}-{ss}.{ext}'
+    path: 'media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}',
+    url: 'media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
   type: 'note',
@@ -139,6 +139,10 @@ indiekit.set('publication.syndicationTargets', [{
     name: 'joebuhlig@instagram.com'}
 }, {
   info: {
+    uid: 'https://reddit.com/u/joebuhlig',
+    name: '/u/joebuhlig@reddit.com'}
+}, {
+  info: {
     uid: 'https://reddit.com/r/joebuhlig',
     name: '/r/joebuhlig@reddit.com'}
 }, {
@@ -149,6 +153,10 @@ indiekit.set('publication.syndicationTargets', [{
   info: {
     uid: 'https://tumblr.com/blog/joebuhlig',
     name: 'joebuhlig@tumblr.com'}
+}, {
+  info: {
+    uid: 'https://truthsocial.com/@joebuhlig',
+    name: '@joebuhlig@truthsocial.com'}
 }]);
 
 indiekit.set('publication.timeZone', 'America/Chicago');
