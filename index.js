@@ -102,7 +102,7 @@ const postTypes = [{
     url: 'media/{yyyy}-{MM}-{dd}-{HH}-{mm}-{ss}.{ext}'
   }
 },{
-  type: 'Steps',
+  type: 'steps',
   name: 'Steps',
   post: {
     path: '_steps/{yyyy}-{MM}-{dd}.md',
